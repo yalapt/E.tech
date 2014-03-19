@@ -1,0 +1,202 @@
+html, body {
+	height: 100%;
+}
+.metro {
+	background-color: #efeae3;
+	min-height: 100%;
+	height: auto;
+ 	margin: 0 auto -60px;
+ 	padding: 0 0 60px;
+}
+
+/* --- HEADER --- */
+
+#myCarousel {
+	height: 340px;
+	width: 100%;
+}
+.logo-etech {
+	height: 40px;
+	margin-top: 3px;
+}
+.subtitle {
+	font-size: 16px;
+	font-style: italic;
+}
+.search-nav {
+	width: 45px;
+	cursor: pointer;
+}
+.img-search {
+	width: 45px;
+	padding: 10px 10px 10px 10px;
+}
+#tfnewsearch{
+	margin: 5px 5px 5px 5px;
+}
+.tftextinput{
+	width: 205px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	border:1px solid #0076a3;
+	border-radius: 5px;
+}
+.tfbutton {
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.tfbutton:hover {
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+  border: 0;
+}
+
+/* --- ARTICLE --- */
+
+.box-article {
+	margin: 30px 0 50px 0;
+}
+.list {
+	padding: 20px 20px 20px 20px;
+}
+.article {
+	width: 214px;
+	height: 400px;
+	margin: 10px 2px 0 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+.title-article {
+	font-weight: bold;
+}
+.info-right {
+	display: inline-block;
+	vertical-align: top;
+}
+.info-prix {
+	font-size: 30px;
+	font-weight: bold;
+	color: #ff3500;
+	margin: 0 0 20px 20px;
+}
+.prix-etech {
+	font-size: 12px;
+	color: #787878;
+}
+.info-add {
+	margin: 0 0 20px 20px;
+}
+.info-vues {
+	margin: 20px 0 20px 20px;
+}
+
+.nb-article {
+	text-align: center;
+}
+.article-apercu {
+	cursor: pointer;
+}
+
+/* --- ACHATS --- */
+
+.block-paiement {
+	margin-top: 40px;
+}
+.cb-visa {
+	height: 30px;
+	margin-left: 25px;
+}
+.numero-cb {
+	width: 410px;
+}
+.date-mois {
+	margin-top: 4px;
+	display: inline;
+}
+.date-annee {
+	margin-top: 4px;
+	display: inline;
+}
+.crypt {
+	width: 122px;
+	display: inline;	
+}
+.icon-plus {
+	width: 20px;
+}
+
+/* --- SIGN & LOGIN --- */
+
+.inscription {
+	padding: 20px 0 20px 40px;
+}
+.inscription h2 {
+	margin-bottom: 30px;
+}
+.inscription input,select {
+	margin: 0 0 4px 0; 
+}
+.valid-btn {
+	margin: 20px 0 10px 0;
+}
+.lien-box {
+	margin-top: 30px;
+}
+
+/* --- CONTENT --- */
+
+.box-element {
+	margin: 30px 0 50px 0;
+}
+.box-content {
+	margin: 30px 0 0 0;
+	padding: 20px 20px 20px 20px;
+}
+
+/* --- PANNEL ADMIN --- */
+
+.inscription ul {
+	list-style-type: none;
+}
+.button-edit {
+	display: inline;
+}
+.button-compte {
+	margin-top: 40px;
+}
+.hr-users {
+	background: #c2c2c2 !important;
+}
+.box-content input,select {
+	margin: 0 0 4px 0; 
+}
+.last-button {
+	margin-left: 25px;
+}
+.block-categories {
+	margin-left: 10px;
+}
+
+/* --- FOOTER --- */
+
+#footer {
+	height: 60px;
+}
